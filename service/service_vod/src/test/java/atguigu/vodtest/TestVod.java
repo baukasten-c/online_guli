@@ -40,7 +40,7 @@ public class TestVod {
     //根据视频iD获取视频播放凭证
     public static void getPlayAuth() throws ClientException {
         //创建初始化对象
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tJNnrnzDVtJmgKUFmjm", "fgb3dyac3ebieZ1BfzCGLoGYsmUg0W");
+        DefaultAcsClient client = InitObject.initVodClient("", "");
         //创建获取视频地址request和response
         GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
         //向request对象里面设置视频id
